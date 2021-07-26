@@ -1,4 +1,4 @@
-# Análise de dados  - Venda de Jogos  :video_game:<h1>
+# 1 - Análise de dados  - Venda de Jogos  :video_game:<h1>
 
 Este repositório contém uma análise exploratória de dados do dataset presente no kaggle.
 
@@ -7,6 +7,8 @@ Foi usado em sua maioria a biblioteca pandas para fazer a manipulação dos dado
 Foram plotados alguns gráficos básicos com a biblioteca Matplotlib.
 
 O link do kaggle: <https://www.kaggle.com/gregorut/videogamesales>
+
+# 2 - Criação de Banco de Dados na nuvem + Query - billboard  :headphones:<h1>
 
 
 
