@@ -1,4 +1,4 @@
-![brasil-covid-1279x450](/home/silas/Área de trabalho/Covid_Engenharia/img/brasil-covid-1279x450.jpg)
+![brasil-covid-1279x450](https://github.com/silasmaverick/Projects/blob/master/Covid_Engenharia/img/brasil-covid-1279x450.jpg)
 
 
 
@@ -10,9 +10,11 @@ Este projeto tenta replicar as informações, criar tabelas para possível repli
 
 Com o arquivo público CSV disponível no site, extrai tabelas e apliquei algumas técnicas de engenharia de dados para construção de um pipeline em um cluster hadoop local até a construção de um dashboard com o Elastic Search. 
 
-![arq](/home/silas/Área de trabalho/Covid_Engenharia/img/arq.jpg)
+![arq](https://github.com/silasmaverick/Projects/blob/master/Covid_Engenharia/img/arq.jpg)
 
-Link dados (* Os dados são atualizados diariamente. Para esse projeto foram utilizados os dados do dia 05/11/2021):  
+Link dados https://covid.saude.gov.br/(* Os dados são atualizados diariamente. Para esse projeto foram utilizados os dados do dia 05/11/2021):  
+
+**Link meus códigos e transformações: https://github.com/silasmaverick/Projects/blob/master/Covid_Engenharia/workinprogres3.ipynb**
 
 **Requisitos recomendados:**
 
@@ -22,17 +24,20 @@ Link dados (* Os dados são atualizados diariamente. Para esse projeto foram uti
 
 - Hardware: 8GB memória Ram (recomendado 16GB), Processador quad-core, 30GB livre no HD.
 
-  
+<br>  
+<br>
+<br>
 
 
 
-Working Progress: As instruções abaixo ainda estão em produção
+***Working Progress: As instruções abaixo ainda estão em desenvolvimento. Não é recomendado segui-las por enquanto***
 
 **Instruções para replicação do projeto**
 
 - Obter a pasta do projeto:
 
 ```shel
+https://github.com/silasmaverick/Projects/tree/master/Covid_Engenharia
 ```
 
 
