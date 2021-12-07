@@ -8,7 +8,7 @@
 
 Este projeto tenta replicar as informações, criar tabelas para possível replicação dos dashboards do site público https://covid.saude.gov.br/  que mostra a situação da pandemia de covid-19 no país. 
 
-Com o arquivo público CSV disponível no site, extrai tabelas e apliquei algumas técnicas de engenharia de dados para construção de um pipeline em um cluster hadoop local até a construção de um dashboard com o Elastic Search. 
+Com o arquivo público CSV disponível no site, extrai tabelas e apliquei algumas técnicas de engenharia de dados para construção de um pipeline em um cluster hadoop local até a construção de um dashboard com Google Data Studio com possibilidade de integração com o kafka e elasticSearch. 
 
 ![arq](https://github.com/silasmaverick/Projects/blob/master/Covid_Engenharia/img/arq.jpg)
 
