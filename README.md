@@ -31,5 +31,5 @@ A partir de um csv público disponível em https://covid.saude.gov.br/, tentei r
 
 Projeto consiste em usar um script python para gerar eventos de navegação web. Esses eventos foram consumidos pelo kinesis para um bucket no S3, em seguida carregados para o Redshift onde passaram por um tratamento de limpeza e modelagem básica de regra de negócio para enfim serem disponibilizados para eventuais ferramentas de BI ou analistas. 
 
-Projeto:  
+Projeto: https://github.com/silasmaverick/Projects/tree/master/5_events_site 
 
