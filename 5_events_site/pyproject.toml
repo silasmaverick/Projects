@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "events_site"
+version = "0.1.0"
+description = "Ingestao de dados de navegacao de paginas web"
+authors = [" Silas Lino <silasmaverick@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.20.26"
+fake-web-events = "^0.2.5"
+ipykernel = "^6.6.0"
+black = "^21.12b0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+silasaws:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: hostname.region.redshift.amazonaws.com
+      user: username
+      password: password1
+      port: 5439
+      dbname: analytics
+      schema: analytics
+      

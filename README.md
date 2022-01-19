@@ -20,12 +20,16 @@ Análise de dados  simples e execução de queries SQL com carregamento de tabel
 Criação de scripts para manipulação de banco de dados SQL (MariaDB) e NoSQL (MongoDB). Foi simulado uma pequena aplicação de cadastro de produtos onde é possivel Listar, Inserir, Deletar e Atualizar determinado item sem a necessidade de abrir um gerenciador gráfico de BD. Para execução é necessário ter instalado um banco de dados SQL ou MariaDb para executar o script para SQL. Já o de Mongo, é necessário uma instalação local do MongoDB ou o uso da MongoCloud. No meu caso, realizei a criação de um ambiente no MongoCloud.  
 
 Projeto: https://github.com/silasmaverick/Projects/tree/master/3_crud_projects
- 
+
 ## 4 - Engenharia de dados no hadoop com dados da covid-19
 
 A partir de um csv público disponível em https://covid.saude.gov.br/, tentei recriar algumas tabelas e fazer operações em um cluster hadoop local. O projeto ainda prevê outros pepilines dos dados e automação do fluxo(em construção). Acesse o projeto: https://github.com/silasmaverick/Projects/tree/master/Covid_Engenharia
 
 
 
- 
+## **5 - Pipeline de dados com carga ELT utilizando uma arquitetura AWS (Kinesis, S3, Redshift, Glue) com modelagem básica no DBT**
+
+Projeto consiste em usar um script python para gerar eventos de navegação web. Esses eventos foram consumidos pelo kinesis para um bucket no S3, em seguida carregados para o Redshift onde passaram por um tratamento de limpeza e modelagem básica de regra de negócio para enfim serem disponibilizados para eventuais ferramentas de BI ou analistas. 
+
+Projeto:  
 
