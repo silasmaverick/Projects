@@ -48,6 +48,12 @@ O Amazon Athena é um serviço de consultas interativas que facilita a  análise
 
 
 
+O Amazon Redshift
+
+O Amazon Redshift usa SQL para analisar dados estruturados e  semiestruturados em data warehouses, bancos de dados operacionais e data lakes, usando hardware e machine learning projetados pela AWS para  oferecer a melhor performance de preço em qualquer escala.  Com a utilização do spectrum, vamos conseguir queries direto no data lake evitando assim materializar grande volume de dados cortando custos.       
+
+
+
 **O DBT**
 
 Ferramenta de Transformação de dados que se preocupa com documentação e Data Quality. Nessa fase serão aplicadas regras de negócio, documentação (catálogo) de transformações claras para tornar os dados confiáveis com governança e testes. Alguns dos requisitos são: Dados já salvos no data lake ou warehouse, dado não muda no momento da execução e transformação feita em SQL. Algumas transformações e regras aplicadas: 
